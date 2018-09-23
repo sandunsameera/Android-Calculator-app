@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="anubhav.calculatorapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StandardCal"
+            android:label="@string/title_activity_standard_cal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScientificCal"
+            android:label="@string/title_activity_scientific_cal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UnitCoverter"
+            android:label="@string/title_activity_unit_coverter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UnitArea"
+            android:label="@string/title_activity_unit_area"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UnitLength"
+            android:label="@string/title_activity_unit_length"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UnitWeight"
+            android:label="@string/title_activity_unit_weight"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UnitTemperature"
+            android:label="@string/title_activity_unit_temperature"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".History"
+            android:label="@string/title_activity_history"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
